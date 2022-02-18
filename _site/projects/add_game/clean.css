@@ -1,0 +1,37 @@
+/* Style buttons */
+.btn {
+    background-color: rgb(192, 235, 165);
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;  
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+  h3 {text-align: center;}
+  h4 {text-align: center;}
+
+  input[type=text] {
+    display: grid;
+    place-items: center;
+    margin : 0 auto;
+    justify-content: center;
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 3px 20px 12px 3px;
+  }

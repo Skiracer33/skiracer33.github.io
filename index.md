@@ -10,6 +10,8 @@ layout: default
 
 2) My cryptocurrency [multimillionaretoken](http://multimillionairetoken.com/) and its [smartcontract](https://etherscan.io/token/0x1f20e5880d8896ece03a690328a16cafe88c6e88).
 
+3) Some arithmetic [games]({{ site.baseurl }} {% link projects/add_game/index.html%}).
+
 ## Papers
 
 1) [Predicting Potential Drug Targets Using Tensor Factorisation and Knowledge Graph Embeddings](https://arxiv.org/abs/2105.10578)
