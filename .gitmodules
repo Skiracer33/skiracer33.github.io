@@ -1,0 +1,3 @@
+[submodule "projects/add_game"]
+	path = projects/add_game
+	url = git@github.com:Skiracer33/add_game.git
