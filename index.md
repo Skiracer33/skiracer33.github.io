@@ -12,6 +12,10 @@ layout: default
 
 3) Some arithmetic [games]({{ site.baseurl }} {% link projects/add_game/index.html%}).
 
+## Posts
+
+1) Implementing the Determinisitc Uncertainty Quantification [Model](https://github.com/Skiracer33/duq/blob/main/duq.ipynb)
+
 ## Papers
 
 1) [Predicting Potential Drug Targets Using Tensor Factorisation and Knowledge Graph Embeddings](https://arxiv.org/abs/2105.10578)
