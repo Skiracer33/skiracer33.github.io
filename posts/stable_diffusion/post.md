@@ -89,12 +89,20 @@ the hulk
 
 I find it surprising how similar  the images produced for the same text prompt are for each of the 6 model checkpoints during fine-tuning: the poses are the same, the objects in the images are the same, and the colour palette remains similar. However, the style of the photos becomes unmistakably more like The Simpsons for more heavily fine-tuned models: the images become more cartoon-like, with block colouring, and large noses, eyes and mouths for the characters.
 
-The weights of the final model are available [here](https://huggingface.co/skiracer/text_to_simpsons/settings). 
+I also created a gif that shows the formation of the images through the different diffusion steps. Initially there is just noise which is then transformed slowly into a realistic image.
+
+![transform1.gif](assets/transform1.gif)
+
+
+
+The weights of the final model are available [here](https://huggingface.co/skiracer/sd-simpsons-diffusers/tree/main). They are compatible with the huggingface diffusers [library.](https://github.com/huggingface/diffusers)
+
+
 
 
 ## TODO
 
-- Hugging face has a very nice library for diffusion models. I want to update the weights so it runs using that library. 
+- Hugging face has a very nice library for diffusion models and I want to update the weights so they are compatible. DONE
 - Upload weights file to huggingface in fp16. This will make inference and download speed faster.  
 
 ## References: 
