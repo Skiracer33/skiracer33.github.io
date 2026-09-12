@@ -1,8 +1,11 @@
-title: Rowan's Website 
-description: A place for my projects and code
+title: Rowan Swiers — Machine Learning & Research
+description: Research and projects in contextual bandits, ad auctions, knowledge graphs and machine learning.
 show_downloads: false
 google_analytics: G-RM2RY4KM40
 theme: jekyll-theme-midnight
 github:
   zip_url: false
   another_url: false
+
+url: "https://skiracer33.github.io"
+baseurl: ""

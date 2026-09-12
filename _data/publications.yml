@@ -1,0 +1,72 @@
+- title: 'Cascaded Bid Floors for Heavy-Tailed Mobile Ad Auctions: A Deployed Production System'
+  authors: Rowan Swiers, Yash Jain, Ajinkya Jawale and Andrew Maher
+  date: '2026'
+  category: auctions
+  topic: Ad auctions
+  venue: AdKDD at KDD 2026
+  status: Not yet on arXiv
+  summary: A production system for setting bid floors in mobile ad auctions with heavy-tailed bids. The accompanying FloorGym simulator studies cascades that pair a primary floor with a safety floor and compares their revenue and fill-rate trade-offs.
+  url: https://www.adkdd.org/papers
+  link_label: AdKDD paper
+  code: https://github.com/meticalabs/floor-gym
+- title: Designing an Interpretable Interface for Contextual Bandits
+  authors: Andrew Maher, Matia Gobbo, Lancelot Lachartre, Subash Prabanantham, Rowan Swiers and Puli Liyanagama
+  date: '23 Sep 2024'
+  category: bandits
+  topic: Contextual bandits
+  venue: IntRS · RecSys 2024
+  summary: An interface that helps domain experts understand and manage contextual bandits. A “value gain” metric explains the impact of individual components, while a qualitative user study explores how to make these systems accessible to non-experts.
+  arxiv: '2409.15143'
+- title: Batched Online Contextual Sparse Bandits with Sequential Inclusion of Features
+  authors: Rowan Swiers, Subash Prabanantham and Andrew Maher
+  date: '13 Sep 2024'
+  category: bandits
+  topic: Contextual bandits
+  venue: CONSEQUENCES · RecSys 2024
+  summary: Introduces OBSI, an algorithm that adds features to a batched contextual bandit only as evidence of their relevance grows. Synthetic experiments show improvements in regret, feature relevance and computational cost, helping keep irrelevant features out of decisions.
+  arxiv: '2409.09199'
+- title: Understanding the Performance of Knowledge Graph Embeddings in Drug Discovery
+  authors: Stephen Bonner, Ian P Barrett, Cheng Ye, Rowan Swiers, Ola Engkvist, Charles Tapley Hoyt and William L Hamilton
+  date: '2022'
+  preprint_date: '17 May 2021'
+  category: graphs
+  topic: Knowledge graphs
+  venue: 'Artificial Intelligence in the Life Sciences 2 (2022): 100036'
+  journal_url: https://doi.org/10.1016/j.ailsci.2022.100036
+  summary: Thousands of experiments examine five embedding models on two drug-discovery knowledge graphs. Training choices, hyperparameters, random seeds and data splits can change both performance and model rankings, highlighting the need for reproducible, carefully reported comparisons.
+  arxiv: '2105.10488'
+- title: Disease ontologies for knowledge graphs
+  authors: Natalja Kurbatova and Rowan Swiers
+  date: '21 Jul 2021'
+  category: graphs
+  topic: Knowledge graphs
+  venue: BMC Bioinformatics
+  summary: A tool for cross-referencing disease ontologies and moving between their hierarchies to support knowledge graph data integration.
+  url: https://doi.org/10.1186/s12859-021-04173-w
+  link_label: Read the paper
+- title: A Knowledge Graph-Enhanced Tensor Factorisation Model for Discovering Drug Targets
+  authors: Cheng Ye, Rowan Swiers, Stephen Bonner and Ian Barrett
+  date: '20 May 2021'
+  category: graphs
+  topic: Knowledge graphs
+  venue: IEEE/ACM TCBB
+  summary: Combines tensor factorisation with knowledge graph embeddings to predict clinical outcomes for unseen gene–disease pairs. Adding learned gene representations improves prediction accuracy, with a joint neural-network and tensor model outperforming the evaluated baselines.
+  arxiv: '2105.10578'
+- title: 'A Review of Biomedical Datasets Relating to Drug Discovery: A Knowledge Graph Perspective'
+  authors: Stephen Bonner, Ian P Barrett, Cheng Ye, Rowan Swiers, Ola Engkvist, Andreas Bender, Charles Tapley Hoyt and William L Hamilton
+  date: '19 Feb 2021'
+  category: graphs
+  topic: Knowledge graphs
+  venue: Briefings in Bioinformatics
+  summary: A guide to public biomedical data for building drug-discovery knowledge graphs. The review categorises data sources, compares existing graphs and examines practical challenges and future research directions for applying graph-based machine learning in this domain.
+  arxiv: '2102.10062'
+- title: Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery
+  authors: Rowan Swiers
+  date: '2019'
+  category: imputation
+  topic: Missing data
+  venue: StanCon 2019 · Cambridge
+  status: Presentation
+  summary: Explores how multiple imputation handles missing values, censoring and measurement error in early-stage drug discovery. Using simulated drug-discovery datasets, Python and Stan, the work compares imputation approaches and examines their effects on uncertainty estimates and investment decisions.
+  url: https://zenodo.org/records/3697280
+  link_label: View on Zenodo
